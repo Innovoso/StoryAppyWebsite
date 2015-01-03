@@ -181,7 +181,6 @@ p {
   margin-top: -8px;
   margin-left: 120px;
   width: 20%;
-
 }
 
 /*Mailchimp*/
@@ -337,6 +336,18 @@ p {
   .storyappy-info {
     text-align: center;
   }
+
+  .arrow1 {
+    display: none;
+  }
+
+  .arrow2 {
+    display: none;
+  }
+
+  .arrow3 {
+    display: none;
+  }
 }
 
 @media (max-width:850px) {
@@ -360,6 +371,18 @@ p {
   .footer {
     text-align: center;
     float: center;
+  }
+
+  .arrow1 {
+    display: none;
+  }
+
+  .arrow2 {
+    display: none;
+  }
+
+  .arrow3 {
+    display: none;
   }
 
   .footer-main-text {
