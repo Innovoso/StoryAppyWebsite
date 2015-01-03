@@ -2,21 +2,57 @@ html, body {
   background-color: #2C2738;
 }
 
+h1 {
+  font-family: ;
+  font-size: 36px;
+  color: white;
+  text-align: center;
+  font-weight: normal;
+}
+
+h2 {
+  font-family: ;
+  font-size: 29px;
+  color: #BA95E3;
+  text-align: center;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: ;
+  font-size: 20px;
+  color: #BA95E3;
+  text-align: center;
+  font-weight: normal;
+}
+
 .header {
   margin-top: 25px;
   padding-bottom: 60px;
   background: #2c2738; /* Old browsers */
-  background: -moz-linear-gradient(top,  #2c2738 0%, #3b3548 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2c2738), color-stop(100%,#3b3548)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top,  #2c2738 0%,#3b3548 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top,  #2c2738 0%,#3b3548 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top,  #2c2738 0%,#3b3548 100%); /* IE10+ */
-  background: linear-gradient(to bottom,  #2c2738 0%,#3b3548 100%); /* W3C */
+  background: -moz-linear-gradient(top,  #2c2738 0%, #2c2738 66%, #3b3548 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2c2738), color-stop(66%,#2c2738), color-stop(100%,#3b3548)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #2c2738 0%,#2c2738 66%,#3b3548 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #2c2738 0%,#2c2738 66%,#3b3548 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #2c2738 0%,#2c2738 66%,#3b3548 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #2c2738 0%,#2c2738 66%,#3b3548 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c2738', endColorstr='#3b3548',GradientType=0 ); /* IE6-9 */
+
 }
 
 .main-mobile {
   text-align: center;
+  margin-top: 10px;
+}
+
+.main-screen {
+  height: 477px;
+}
+
+.arrows-text {
+  text-align: center;
+  margin-left: 60px;
+  margin-bottom: 50px;
   margin-top: 10px;
 }
 
@@ -31,7 +67,14 @@ html, body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b3548', endColorstr='#2f293b',GradientType=0 ); /* IE6-9 */
 }
 
+.call-to-action {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #453F52;
+}
+
 .join-beta-btn {
+  margin-top: 3px;
   float: right;
   background-color: #BA95E3;
   border-radius: 4px;
