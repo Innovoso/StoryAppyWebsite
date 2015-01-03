@@ -164,6 +164,26 @@ p {
   color: white;
 }
 
+.arrow1 {
+  z-index: -1;
+  margin-top: -52px;
+  margin-left: -920px;
+}
+
+.arrow2 {
+  z-index: 1;
+  margin-top: -2px;
+  margin-left: -290px;
+}
+
+.arrow3 {
+  z-index: 2;
+  margin-top: -8px;
+  margin-left: 120px;
+  width: 20%;
+
+}
+
 /*Mailchimp*/
 .mailchimp {
   text-align: center;
