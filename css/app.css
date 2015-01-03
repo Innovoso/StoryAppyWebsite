@@ -82,4 +82,13 @@ h3 {
 
 .screens {
   text-align: center;
+  height: 350px;
+}
+
+.read-screen {
+  margin-right: -45px;
+}
+
+.approve-screen {
+  margin-left: -45px;
 }
