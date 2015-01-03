@@ -18,12 +18,25 @@ h2 {
   font-weight: normal;
 }
 
+.let-us-know {
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+
 h3 {
   font-family: ;
   font-size: 20px;
   color: #BA95E3;
   text-align: center;
   font-weight: normal;
+}
+
+h4 {
+  font-family: "serif";
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 p {
@@ -62,6 +75,15 @@ p {
   margin-top: 10px;
 }
 
+.three-stages-text {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.explanations {
+  margin-top: 15px;
+}
+
 .three-screens {
   background: #3b3548; /* Old browsers */
   background: -moz-linear-gradient(top,  #3b3548 0%, #2f293b 100%); /* FF3.6+ */
@@ -74,8 +96,8 @@ p {
 }
 
 .call-to-action {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 45px;
+  padding-bottom: 40px;
   background-color: #453F52;
 }
 
@@ -136,4 +158,31 @@ p {
 
 #secondary-menu {
   color: white;
+}
+
+/*Mailchimp*/
+#mc_embed_signup {
+  font:14px;
+  font-family: Helvetica,Arial,sans-serif;
+  margin-top: 15px;
+}
+
+.call-to-action-form {
+  text-align: center;
+  margin-right: 0;
+}
+
+.email {
+  width: 450px !important;
+  float: left;
+  margin-right: 20px !important;
+  height: 20px;
+}
+
+.send-button {
+  float: left;
+  background-color: #BA95E3;
+  border-radius: 4px !important;
+  height: 37px !important;
+  padding-top: 10px;
 }
